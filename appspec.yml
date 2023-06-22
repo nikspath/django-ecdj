@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/django-ec-dj
+    destination: /home/ubuntu/django-ecdj
 hooks:
   BeforeInstall:
       - location: scripts/before_install.sh
